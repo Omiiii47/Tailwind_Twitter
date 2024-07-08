@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-black">
+    <div class="flex container mx-auto bg-black text-white">
+        <div class="first w-[70%]">
+
+            <div class="logo invert my-4"><svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg></div>
+
+
+            <div class="sidebar flex flex-col items-end ">
+
+                <ul class="flex flex-col space-y-3 text-2xl font-bold px-2 ">
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            home
+                        </span> <span>Home</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl ">
+                            search
+                        </span> <span>Explore</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            notifications
+                        </span> <span>Notifications</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            mail
+                        </span> <span>Messages</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            open_in_new
+                        </span> <span>Grok</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            group
+                        </span> <span>Communities</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            group
+                        </span> <span>Premium</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            person
+                        </span> <span>Profile</span>
+                    </li>
+                    <li class="flex gap-3 justify-start w-fit px-4  hover:bg-gray-800   rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            pending
+                        </span> <span>More</span>
+                    </li>
+                    <li>
+                        <div class="button w-full text-center"><button
+                                class=" bg-blue-600 text-white px-20 rounded-full py-2 my-5">Post</button></div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="second w-full border border-white border-y-black overflow-y-auto">
+            
+            <div class="top flex p-3  sticky top-0 ">
+               
+                <div class="left w-1/2 flex justify-center font-bold cursor-pointer ">For You</div>
+                <div class="right w-1/2 flex justify-center font-bold cursor-pointer  ">Following</div>
+                
+            </div>
+
+            <div class="h-[1px] w-full bg-gray-500">
+
+            </div>
+
+            <div class="for_you flex ">
+                <div class="img  overflow-hidden rounded-full w-11 h-10 m-4">
+                    <img src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                </div>
+                <div class="w-full">
+                    <input class="text-xl w-full bg-black text-white  my-4 outline-none" type="text "
+                        placeholder="What is Happening">
+                    <div class="globe text-blue-500 flex text-center gap-3 w-full my-3"><span
+                            class="material-symbols-outlined">
+                            globe_asia
+                        </span> <span class="w-full justify-start flex font-bold">Everyone can reply</span></div>
+
+                    <div class="div w-[80%] h-[0.1px] bg-gray-500 my-3"></div>
+
+                    <div class="blueicons text-blue-600 space-x-1">
+                        <span class="material-symbols-outlined cursor-pointer">
+                            imagesmode
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            gif_box
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            event_list
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            add_reaction
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            calendar_month
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            location_on
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div>
+
+            <div class=" overflow-auto">
+
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img"> <img class="overflow-hidden rounded-full w-11 h-10 mx-3"
+                            src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                    </div>
+                    <div class="account flex space-x-2 ">
+                        <span class="hover:underline font-bold cursor-pointer">Virat Kohli .6h</span>
+                        <span class="text-gray-500">@virat18</span>
+                    </div>
+
+
+                </div>
+                <div class="description px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                    eaque fugiat nisi quis! Nisi voluptas accusantium accusamus officiis ratione velit eius impedit enim
+                    doloribus ut. Ullam suscipit perferendis, tenetur porro asperiores tempora inventore!</div>
+
+                <div class="postimg">
+                    <div class="img p-5  "><img class="rounded-xl overflow-hidden"
+                            src="https://pbs.twimg.com/media/GR0SDa3XUAA7L_O?format=jpg&name=small" alt=""></div>
+                </div>
+            </div>
+
+            <div class="icons flex px-5 justify-around items-center ">
+                <div class="icon flex gap-x-16 text-gray-600 items-center">
+                    <span class="material-symbols-outlined cursor-pointer">
+                        comment
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer">
+                        repeat
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer">
+                        visibility
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer">
+                        bookmark
+                    </span>
+                </div>
+                <div class="share"><span class="material-symbols-outlined text-gray-600 items-center cursor-pointer">
+                        ios_share
+                    </span></div>
+                </div>
+                <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="posts">
+                    <div class="post flex">
+                        <div class="img"> <img class="overflow-hidden rounded-full w-11 h-10 mx-3"
+                                src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                        </div>
+                        <div class="account flex space-x-2 ">
+                            <span class="hover:underline font-bold cursor-pointer">Virat Kohli .6h</span>
+                            <span class="text-gray-500">@virat18</span>
+                        </div>
+    
+    
+                    </div>
+                    <div class="description px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                        eaque fugiat nisi quis! Nisi voluptas accusantium accusamus officiis ratione velit eius impedit enim
+                        doloribus ut. Ullam suscipit perferendis, tenetur porro asperiores tempora inventore!</div>
+    
+                    <div class="postimg">
+                        <div class="img p-5  "><img class="rounded-xl overflow-hidden"
+                                src="https://pbs.twimg.com/media/GR0SDa3XUAA7L_O?format=jpg&name=small" alt=""></div>
+                    </div>
+                </div>
+    
+                <div class="icons flex px-5 justify-around items-center ">
+                    <div class="icon flex gap-x-16 text-gray-600 items-center">
+                        <span class="material-symbols-outlined cursor-pointer">
+                            comment
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            repeat
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            favorite
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            visibility
+                        </span>
+                        <span class="material-symbols-outlined cursor-pointer">
+                            bookmark
+                        </span>
+                    </div>
+                    <div class="share"><span class="material-symbols-outlined text-gray-600 items-center cursor-pointer">
+                            ios_share
+                        </span></div>
+                    </div>
+                    <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div><div class="posts">
+                        <div class="post flex">
+                            <div class="img"> <img class="overflow-hidden rounded-full w-11 h-10 mx-3"
+                                    src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                            </div>
+                            <div class="account flex space-x-2 ">
+                                <span class="hover:underline font-bold cursor-pointer">Virat Kohli .6h</span>
+                                <span class="text-gray-500">@virat18</span>
+                            </div>
+        
+        
+                        </div>
+                        <div class="description px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                            eaque fugiat nisi quis! Nisi voluptas accusantium accusamus officiis ratione velit eius impedit enim
+                            doloribus ut. Ullam suscipit perferendis, tenetur porro asperiores tempora inventore!</div>
+        
+                        <div class="postimg">
+                            <div class="img p-5  "><img class="rounded-xl overflow-hidden"
+                                    src="https://pbs.twimg.com/media/GR0SDa3XUAA7L_O?format=jpg&name=small" alt=""></div>
+                        </div>
+                    </div>
+        
+                    <div class="icons flex px-5 justify-around items-center ">
+                        <div class="icon flex gap-x-16 text-gray-600 items-center">
+                            <span class="material-symbols-outlined cursor-pointer">
+                                comment
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                repeat
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                favorite
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                visibility
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                bookmark
+                            </span>
+                        </div>
+                        <div class="share"><span class="material-symbols-outlined text-gray-600 items-center cursor-pointer">
+                                ios_share
+                            </span></div>
+                        </div>
+                        <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div><div class="posts">
+                            <div class="post flex">
+                                <div class="img"> <img class="overflow-hidden rounded-full w-11 h-10 mx-3"
+                                        src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                                </div>
+                                <div class="account flex space-x-2 ">
+                                    <span class="hover:underline font-bold cursor-pointer">Virat Kohli .6h</span>
+                                    <span class="text-gray-500">@virat18</span>
+                                </div>
+            
+            
+                            </div>
+                            <div class="description px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                                eaque fugiat nisi quis! Nisi voluptas accusantium accusamus officiis ratione velit eius impedit enim
+                                doloribus ut. Ullam suscipit perferendis, tenetur porro asperiores tempora inventore!</div>
+            
+                            <div class="postimg">
+                                <div class="img p-5  "><img class="rounded-xl overflow-hidden"
+                                        src="https://pbs.twimg.com/media/GR0SDa3XUAA7L_O?format=jpg&name=small" alt=""></div>
+                            </div>
+                        </div>
+            
+                        <div class="icons flex px-5 justify-around items-center ">
+                            <div class="icon flex gap-x-16 text-gray-600 items-center">
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    comment
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    repeat
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    favorite
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    visibility
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    bookmark
+                                </span>
+                            </div>
+                            <div class="share"><span class="material-symbols-outlined text-gray-600 items-center cursor-pointer">
+                                    ios_share
+                                </span></div>
+                            </div>
+                            <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div><div class="posts">
+                                <div class="post flex">
+                                    <div class="img"> <img class="overflow-hidden rounded-full w-11 h-10 mx-3"
+                                            src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                                    </div>
+                                    <div class="account flex space-x-2 ">
+                                        <span class="hover:underline font-bold cursor-pointer">Virat Kohli .6h</span>
+                                        <span class="text-gray-500">@virat18</span>
+                                    </div>
+                
+                
+                                </div>
+                                <div class="description px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                                    eaque fugiat nisi quis! Nisi voluptas accusantium accusamus officiis ratione velit eius impedit enim
+                                    doloribus ut. Ullam suscipit perferendis, tenetur porro asperiores tempora inventore!</div>
+                
+                                <div class="postimg">
+                                    <div class="img p-5  "><img class="rounded-xl overflow-hidden"
+                                            src="https://pbs.twimg.com/media/GR0SDa3XUAA7L_O?format=jpg&name=small" alt=""></div>
+                                </div>
+                            </div>
+                
+                            <div class="icons flex px-5 justify-around items-center ">
+                                <div class="icon flex gap-x-16 text-gray-600 items-center">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        comment
+                                    </span>
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        repeat
+                                    </span>
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        favorite
+                                    </span>
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        bookmark
+                                    </span>
+                                </div>
+                                <div class="share"><span class="material-symbols-outlined text-gray-600 items-center cursor-pointer">
+                                        ios_share
+                                    </span></div>
+                                </div>
+                                <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div><div class="posts">
+                                    <div class="post flex">
+                                        <div class="img"> <img class="overflow-hidden rounded-full w-11 h-10 mx-3"
+                                                src="https://pbs.twimg.com/profile_images/1809803699499278336/ASF5Ns9c_200x200.jpg" alt="">
+                                        </div>
+                                        <div class="account flex space-x-2 ">
+                                            <span class="hover:underline font-bold cursor-pointer">Virat Kohli .6h</span>
+                                            <span class="text-gray-500">@virat18</span>
+                                        </div>
+                    
+                    
+                                    </div>
+                                    <div class="description px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel
+                                        eaque fugiat nisi quis! Nisi voluptas accusantium accusamus officiis ratione velit eius impedit enim
+                                        doloribus ut. Ullam suscipit perferendis, tenetur porro asperiores tempora inventore!</div>
+                    
+                                    <div class="postimg">
+                                        <div class="img p-5  "><img class="rounded-xl overflow-hidden"
+                                                src="https://pbs.twimg.com/media/GR0SDa3XUAA7L_O?format=jpg&name=small" alt=""></div>
+                                    </div>
+                                </div>
+                    
+                                <div class="icons flex px-5 justify-around items-center ">
+                                    <div class="icon flex gap-x-16 text-gray-600 items-center">
+                                        <span class="material-symbols-outlined cursor-pointer">
+                                            comment
+                                        </span>
+                                        <span class="material-symbols-outlined cursor-pointer">
+                                            repeat
+                                        </span>
+                                        <span class="material-symbols-outlined cursor-pointer">
+                                            favorite
+                                        </span>
+                                        <span class="material-symbols-outlined cursor-pointer">
+                                            visibility
+                                        </span>
+                                        <span class="material-symbols-outlined cursor-pointer">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div class="share"><span class="material-symbols-outlined text-gray-600 items-center cursor-pointer">
+                                            ios_share
+                                        </span></div>
+                                    </div>
+                                    <div class="div w-full h-[0.1px] bg-gray-500 my-3"></div>
+                                </div>
+
+
+        </div>
+        <div class="third  w-full">
+            <div class="search">
+                <input type="text" placeholder="Search" class="w-1/2 rounded-full bg-gray-900 text-white px-4 py-2 m-3">
+            </div>
+
+            <div class="whats m-3  w-1/2  rounded-xl bg-black space-y-3 border ">
+                <h1 class="text-xl font-bold py-3 px-3 ">what's happening</h1>
+                <div class="item  hover:bg-gray-800 cursor-pointer p-3">
+                    <div class="font-bold text-sm text-gray-500 ">Trending In India</div>
+                    <div class="font-bold">#India won T20 World Cup</div>
+                    <div>500M posts</div>
+                </div>
+
+                <div class="item  hover:bg-gray-800 cursor-pointer p-3">
+                    <div class="font-bold text-sm text-gray-500 ">Trending In India</div>
+                    <div class="font-bold">#Portugal loss</div>
+                    <div>500M posts</div>
+                </div>
+
+                <div class="item  hover:bg-gray-800 cursor-pointer p-3">
+                    <div class="font-bold text-sm text-gray-500 ">Trending In India</div>
+                    <div class="font-bold">#Ronaldo last wc</div>
+                    <div>500M posts</div>
+                </div>
+
+                <div class="item  hover:bg-gray-800 cursor-pointer p-3">
+                    <div class="font-bold text-sm text-gray-500 ">Trending In India</div>
+                    <div class="font-bold">#South Africa Lost</div>
+                    <div>500M posts</div>
+                </div>
+
+                <div class="item  hover:bg-gray-800 cursor-pointer p-3">
+                    <div class="font-bold text-sm text-gray-500 ">Trending In India</div>
+                    <div class="font-bold">#Paranormal Activity</div>
+                    <div>500M posts</div>
+                </div>
+            </div>
+
+            <div class="who m-3  w-1/2  rounded-xl bg-black  border ">
+                <h1 class="text-xl font-bold py-4 px-3 ">Who to Follow </h1>
+                <div class="user cursor-pointer p-3 ">
+                    <div class="font-bold">Om Naik</div>
+                    <div class="font-bold flex text-sm text-gray-500 ">@omnaik69</div>
+                </div>
+
+                <div class="user cursor-pointer p-3 space-y-1">
+                    <div class="font-bold">Om Naik</div>
+                    <div class="font-bold flex text-sm text-gray-500 ">@omnaik69</div>
+                </div>
+
+                <div class="user cursor-pointer p-3">
+                    <div class="font-bold">Om Naik</div>
+                    <div class="font-bold flex text-sm text-gray-500 ">@omnaik69</div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
