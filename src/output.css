@@ -592,18 +592,6 @@ video {
   position: fixed;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
 .m-4 {
   margin: 1rem;
 }
@@ -647,15 +635,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-.mr-auto {
-  margin-right: auto;
-}
-
 .flex {
   display: flex;
 }
@@ -672,21 +651,17 @@ video {
   height: 0.1px;
 }
 
-.h-\[1px\] {
-  height: 1px;
-}
-
-.h-screen {
-  height: 100vh;
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-\[950px\] {
@@ -697,20 +672,12 @@ video {
   max-height: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-11 {
   width: 2.75rem;
 }
 
 .w-8 {
   width: 2rem;
-}
-
-.w-\[100\%\] {
-  width: 100%;
 }
 
 .w-\[150\%\] {
@@ -736,26 +703,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[101\%\] {
-  width: 101%;
-}
-
-.w-\[1\/2\] {
-  width: 1/2;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[75\] {
-  width: 75;
-}
-
-.w-\[75\%\] {
-  width: 75%;
 }
 
 .cursor-pointer {
@@ -792,66 +739,6 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-28 {
-  gap: 7rem;
-}
-
-.gap-32 {
-  gap: 8rem;
-}
-
-.gap-36 {
-  gap: 9rem;
-}
-
-.gap-40 {
-  gap: 10rem;
-}
-
-.gap-44 {
-  gap: 11rem;
-}
-
-.gap-48 {
-  gap: 12rem;
-}
-
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[190px\] {
-  gap: 190px;
-}
-
-.gap-\[10px\] {
-  gap: 10px;
-}
-
-.gap-\[180px\] {
-  gap: 180px;
 }
 
 .gap-\[188px\] {
@@ -893,10 +780,6 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .rounded-full {
@@ -950,11 +833,6 @@ video {
   padding: 1.25rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -975,14 +853,14 @@ video {
   padding-right: 1rem;
 }
 
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.px-\[169px\] {
-  padding-left: 169px;
-  padding-right: 169px;
 }
 
 .px-\[70px\] {
@@ -1008,21 +886,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-44 {
-  padding-left: 11rem;
-  padding-right: 11rem;
-}
-
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
-.px-36 {
-  padding-left: 9rem;
-  padding-right: 9rem;
 }
 
 .text-center {

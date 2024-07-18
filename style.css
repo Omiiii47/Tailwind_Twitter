@@ -7,4 +7,10 @@
   }
   }
 
+  @media (min-width :1521px){
+    .rukja{
+      padding-right: 4pc;
+    }
+  }
+
 
